@@ -1,0 +1,14 @@
+import java.util.*;
+
+public class TreeSetNull {
+    public static void main(String[] args) {
+        TreeSet<String> set = new TreeSet<>();
+
+        set.add("Java");
+        set.add("Python");
+
+        // set.add(null); // Throws NullPointerException
+
+        System.out.println(set);
+    }
+}
